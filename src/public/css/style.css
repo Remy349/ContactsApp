@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer {
+    margin-top: 120px;
+}
+
+.footer .redes {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer .redes a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 100px;
+    transition: .3s ease all;
+    color: #ffffff;
+}
+
+.footer .redes i {
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.footer .contenedor-icono:hover a {
+    animation: icono .5s ease;
+}
+
+@keyframes icono {
+    from {
+        transform: rotate3d(0, 0, 0, 0);
+    }
+    to {
+        transform: rotate3d(0, 1, 0, 360deg);
+    }
+}
+
+.footer .contenedor-creador {
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.footer .contenedor-creador .creador {
+    font-size: 20px;
+}
