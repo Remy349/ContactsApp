@@ -10,7 +10,7 @@ ademas pueden crear su propio usuario en la aplicación y tener sus datos de man
 
 ## Como hacer funcionar la app
 
-Para iniciar la aplicación ejecute el comando "npm run" dev en la consola y cambiar la configuración
+Para iniciar la aplicación ejecute el comando "npm run dev" en la consola y cambiar la configuración
 de la base de datos MySql en el archivo llamado "keys.js" dentro del proyecto.
 
 ### Made it by Santiago de Jesus Moraga Caldera
